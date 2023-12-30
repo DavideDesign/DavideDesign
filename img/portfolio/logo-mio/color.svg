@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Brand_Manual" data-name="Brand Manual" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #2edbe3;
+      }
+
+      .cls-3 {
+        fill: #1c1c1b;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        letter-spacing: .14em;
+      }
+
+      .cls-3, .cls-6, .cls-5 {
+        font-family: Inter-Regular, Inter;
+        font-size: 25px;
+        font-variation-settings: 'wght' 400, 'slnt' 0;
+      }
+
+      .cls-7 {
+        letter-spacing: .12em;
+      }
+
+      .cls-6, .cls-5 {
+        fill: #dedede;
+      }
+
+      .cls-8 {
+        fill: #730ad7;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="-2519.53" y="-58.5" width="3328.03" height="417.01"/>
+  <g>
+    <rect class="cls-1" x="-8.5" y="-58.5" width="408.41" height="208.5"/>
+    <rect x="399.9" y="-58.5" width="408.41" height="208.5"/>
+    <rect class="cls-8" x="-8.5" y="150" width="408.41" height="208.5"/>
+    <rect class="cls-2" x="399.9" y="150" width="408.41" height="208.5"/>
+  </g>
+  <text class="cls-3" transform="translate(173.33 92.26)"><tspan x="0" y="0">#FFFFFF</tspan></text>
+  <text class="cls-5" transform="translate(456.75 92.26)"><tspan x="0" y="0">#000000</tspan></text>
+  <text class="cls-6" transform="translate(170.06 237.85)"><tspan class="cls-4" x="0" y="0">#</tspan><tspan class="cls-7" x="19.27" y="0">7</tspan><tspan class="cls-4" x="36.62" y="0">30AD7</tspan></text>
+  <text class="cls-3" transform="translate(456.04 237.85)"><tspan x="0" y="0">#2EDBE3</tspan></text>
+</svg>

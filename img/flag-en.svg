@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #006;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #c00;
+      }
+    </style>
+  </defs>
+  <g id="g578">
+    <rect id="rect124" class="cls-1" width="1920" height="1080"/>
+    <g id="g584">
+      <path id="path146" class="cls-2" d="M0,0V120.75l1705.34,959.25h214.66v-120.74L214.66,0H0Zm1920,0V120.74L214.66,1080H0v-120.74L1705.34,0h214.66Z"/>
+      <path id="path136" class="cls-2" d="M800,0V1080h320V0h-320ZM0,360v360H1920V360H0Z"/>
+      <path id="path141" class="cls-3" d="M0,432v216H1920v-216H0ZM864,0V1080h192V0h-192Z"/>
+      <path id="path150" class="cls-3" d="M0,1080l640-360h143.1L143.1,1080H0ZM0,0L640,360h-143.1L0,80.5V0ZM1136.9,360L1776.9,0h143.1l-640,360h-143.1Zm783.1,720l-640-360h143.1l496.9,279.5v80.5Z"/>
+    </g>
+  </g>
+</svg>

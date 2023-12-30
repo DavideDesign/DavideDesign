@@ -1,0 +1,167 @@
+.container-about {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+.p1-chi_sono {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 0 0 2px #730AD7;
+}
+
+.p1-chi_sono br {
+    display: none;
+}
+
+.p2-chi_sono {
+    text-align: left;
+    line-height: 27px;
+    color: white;
+}
+
+.p2-chi_sono section {
+    margin-bottom: 20px;
+}
+
+.box img {
+    float: left;
+    margin-right: 25px;
+    width: 200px;
+}
+
+.container {
+    margin-inline: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.column {
+    width: 50%;
+    float: left;
+
+}
+
+.card {
+    margin-top: 5rem auto;
+}
+
+/* SKILLS */
+.skills {
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    & div {
+        flex: 1 1 calc(33.33% - 20px);
+        padding-top: 40px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    & p {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding-top: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* STUDY */
+.study {
+    #big-title {
+        margin-bottom: -50px;
+    }
+}
+
+#box_study {
+    max-width: 1250px;
+    margin: auto;
+    min-block-size: 100%;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-auto-flow: dense;
+    padding: 5vmin;
+
+    article {
+        display: grid;
+        gap: 2ch;
+        grid-row: span 4;
+        grid-template-rows: subgrid;
+        margin-inline: 5vmin;
+        margin-block: 6vmin;
+    }
+
+    header {
+        display: grid;
+        color: #DA0037;
+        text-wrap: balance;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    hr {
+        height: 2px;
+        width: 10ch;
+        border: none;
+        background: #730AD7;
+    }
+
+    img {
+        grid-area: span 1/span 1;
+        position: relative;
+        overflow: hidden;
+        transition: filter 0.3s ease;
+        transition: transform 0.3s;
+        max-width: 100%;
+        height: auto;
+        border-radius: 3px;
+        cursor: url(/img/pointer.png), auto;
+    }
+
+    img:hover,
+    img:focus {
+        box-shadow: 0 0.5em 0.5em -0.4em #DA0037;
+        transform: translateY(-0.30em);
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+.modstudy {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}

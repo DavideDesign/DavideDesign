@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/style/general-style.css">
+    <link rel="stylesheet" href="/style/style-home_portfolio.css">
+    <link rel="stylesheet" href="/style/style-chi_sono.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <script src="https://kit.fontawesome.com/25c9fb1e35.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords"
+        content="Graphic Design, Emotes, Illustrations, Grafica, Art, Brand Design, Brand Identity, Web Design">
+    <meta name="author" content="Davide Calabrò">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HEAD -->
+    <title>Davide Calabrò ~ Chi Sono</title>
+    <link rel="icon" href="/img/logo/+Logo-DC_color.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header_normal">
+            <!-- LOGO -->
+            <div class="logo_home"></div>
+            <!-- MENU NAV -->
+            <div class="encaser_right">
+                <div class="nav">
+                    <li class="dropdown-item"><a href="portfolio.html">Porfolio</a></li>
+                    <li class="dropdown-item active"><a href="chi_sono.html">Chi Sono</a></li>
+                    <li class="dropdown-item"><a href="servizi.html">Servizi</a></li>
+
+                    <!-- LANGUAGE -->
+                    <div class="nav-wrapper">
+                        <div class="sl-nav">
+                            <ul>
+                                <li>Lingua <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    <div class="triangle"></div>
+                                    <ul>
+                                        <li><i class="sl-flag flag-it"></i> <a href="portfolio.html">
+                                                <span class="active">IT</span></a>
+                                        </li>
+                                        <li><i class="sl-flag flag-en"></i>
+                                            <span>EN</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr id="hr-nav">
+                <!-- SOCIAL -->
+                <section class="social">
+                    <a href="https://www.instagram.com/_davidedesign/" target="_blank" alt="instagram">
+                        <div class="instagram"></div>
+                    </a>
+                    <a href="https://twitter.com/Davide_Design" target="_blank" alt="xtwitter">
+                        <div class="xtwitter"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davide-calabró" target="_blank" alt="linkedin">
+                        <div class="linkedin"></div>
+                    </a>
+                    <a href="mailto:davidedesign.business@gmail.com" alt="email">
+                        <div class="mail"></div>
+                    </a>
+                </section>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU HEADER -->
+        <div class="header_mobile">
+            <div class="logo_home_mobile"></div>
+            <!-- SOCIAL -->
+            <div class="contact">
+                <p>Contatti</p>
+                <section class="social">
+                    <a href="https://www.instagram.com/_davidedesign/" target="_blank" alt="instagram">
+                        <div class="instagram"></div>
+                    </a>
+                    <a href="https://twitter.com/Davide_Design" target="_blank" alt="xtwitter">
+                        <div class="xtwitter"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davide-calabró" target="_blank" alt="linkedin">
+                        <div class="linkedin"></div>
+                    </a>
+                    <a href="mailto:davidedesign.business@gmail.com" alt="email">
+                        <div class="mail"></div>
+                    </a>
+                </section>
+            </div>
+            <!-- MENU -->
+            <section class="encaser_right_mobile">
+                <div id="navicon">
+                    <p>menu</p>
+                    <input type="checkbox" onclick="attivaDisattivaPointerEvents()" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <script>
+                        function attivaDisattivaPointerEvents() {
+                            var elementoTrasparente = document.getElementById('elementoTrasparente');
+                            var pointerEventsValue = elementoTrasparente.style.pointerEvents;
+                            elementoTrasparente.style.pointerEvents = pointerEventsValue === 'none' ? 'auto' : 'none';
+                        }
+                    </script>
+
+                    <div class="drawer">
+                        <img src="/img/logo/+Logo-DC_color.svg">
+                        <ul class="sottostante" id="elementoSottostante">
+                            <li><a href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li><a class="active_mobile" href="chi_sono.html">Chi Sono</a>
+                            </li>
+                            <li><a href="servizi.html">Servizi</a>
+                            </li>
+                            <!-- LANGUAGE -->
+                            <div class="lingua_mobile">
+                                <li><a href="portfolio.html"><i class="sl-flag flag-it"></i>
+                                    </a>
+                                </li>
+                                <li><a href="portfolio.html"><i class="sl-flag flag-en"></i>
+                                    </a>
+                                </li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- BODY -->
+
+    <main class="col-12 trasparente" id="elementoTrasparente">
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <section class="container-about">
+            <div>
+                <!-- TITLE -->
+                <section>
+                    <div id="slider-title">
+                        <div class="span-title" id="sliderValue-title"></div>
+                    </div>
+
+                    <script>
+                        var sliderCounter = 0;
+                        var sliderContent = [
+                            "DAVIDE CALABRO'",
+                            "GRAPHIC DESIGNER"
+                        ];
+
+                        var slider = document.querySelector("#slider-title");
+                        var sliderValue = document.querySelector("#sliderValue-title");
+
+                        function slide() {
+                            if (sliderCounter >= sliderContent.length) {
+                                sliderCounter = 0;
+                            }
+
+                            sliderValue.innerHTML = "";
+
+                            sliderValue.classList.remove("holder-animation-title");
+                            void sliderValue.offsetWidth;
+                            sliderValue.classList.add("holder-animation-title");
+
+                            for (i = 0; i < sliderContent[sliderCounter].length; i++) {
+                                let letterDiv = document.createElement("div");
+                                letterDiv.innerHTML = sliderContent[sliderCounter][i];
+
+                                if (letterDiv.innerHTML == " ") {
+                                    letterDiv.innerHTML = "&nbsp;";
+                                }
+                                letterDiv.classList.add("start");
+                                letterDiv.classList.add("animation");
+                                letterDiv.style.animationDelay = i / 10 + "s";
+                                sliderValue.appendChild(letterDiv);
+                            }
+
+                            sliderCounter++;
+                        }
+
+                        slide();
+                        setInterval(slide, 10000);
+                    </script>
+                </section>
+                <p class="p1-chi_sono">
+                    <strong>Mi chiamo Davide</strong> e <br>sono un <strong>Grafico Freelance</strong>
+                </p>
+                <!-- BIO -->
+                <div class="container">
+                    <div class="card column">
+                        <div class="box">
+                            <img src="/img/photo_profile_face.png">
+                        </div>
+                        <div class="p2-chi_sono">
+                            <section>
+                                La mia passione per
+                                la grafica, il fotoritocco e l'informatica mi ha spinto a perfezionare
+                                le mie competenze
+                                studiando ogni giorno e acquisendo nuovi certificati, lavorando con piccoli
+                                clienti, ho acquisito esperienza
+                                e migliorato costantemente le mie abilità.
+                                Dalla progettazione di loghi, grafica per i social media, articoli per la stampa
+                                e
+                                altro. Sono noto per la mia attenzione ai dettagli e la capacità di adattare il mio
+                                lavoro
+                                alle esigenze di ciascun cliente.
+                            </section>
+                            <section>
+                                Sono sempre in cerca di nuove sfide e opportunità creative per mettere in mostra
+                                le
+                                mie
+                                capacità, infatti questo sito web e tutto il contenuto è stato
+                                progettato da me personalmente.
+                                La mia missione è fornire soluzioni grafiche di alta qualità che
+                                aiutino i clienti
+                                a raggiungere i propri obiettivi e distinguersi dalla concorrenza..
+                                <!-- Disponibile a collaborazioni  -->
+                                <span class="read-more underline">
+                                    <a href="servizi.html"><strong>scopri i Servizi.</strong></a>
+                                </span>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- SKILLS -->
+                    <div class="card column">
+                        <h3 id="big-title">MY SKILLS</h3>
+                        <section class="skills">
+                            <div>
+                                <iconify-icon icon="file-icons:adobe-photoshop" width="50"></iconify-icon>
+                                <p>Photoshop</p>
+                            </div>
+
+                            <div>
+                                <iconify-icon icon="file-icons:adobe-illustrator" width="50"></iconify-icon>
+                                <p>Illustrator</p>
+                            </div>
+
+                            <div>
+                                <iconify-icon icon="file-icons:adobe-indesign" width="50"></iconify-icon>
+                                <p>inDesign</p>
+                            </div>
+
+                            <div>
+                                <iconify-icon icon="devicon-plain:premierepro" width="50"></iconify-icon>
+                                <p>Premiere Pro</p>
+                            </div>
+
+                            <div>
+                                <iconify-icon icon="devicon-plain:aftereffects" width="50"></iconify-icon>
+                                <p>After Effects</p>
+                            </div>
+
+                            <div>
+                                <img src="/img/iconprocreate.png" width="50">
+                                <p>Procreate</p>
+                            </div>
+
+                            <div>
+                                <iconify-icon icon="akar-icons:html-fill" width="50"></iconify-icon>
+                                <p>Html 5</p>
+                            </div>
+
+                            <div>
+                                <iconify-icon icon="akar-icons:css-fill" width="50"></iconify-icon>
+                                <p>Css 3</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="study">
+            <h3 id="big-title">STUDI</h3>
+            <section id="box_study">
+                <!-- Aggiungere qui nuovi -->
+                <article>
+                    <header>
+                        <h2>Web Designer Accademia Domani</h2>
+                        <h4>Certificato</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-9">
+                            <img src="/img/certificati/IT/Certificato Web Designer Accademia Domani.png">
+                    </div>
+                    <footer>
+                        23-10-2023
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Coding Week Boolean</h2>
+                        <h4>Attestato di partecipazione</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-8">
+                            <img src="/img/certificati/IT/Attestato partecipazione - Coding Week - Boolean.png"></label>
+                    </div>
+                    <footer>
+                        20-10-2023
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Correzione Digitale Accademia Domani</h2>
+                        <h4>Certificato</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-7">
+                            <img
+                                src="/img/certificati/IT/Certificato Correzione Digitale (inDesign) Accademia Domani.png">
+                    </div>
+                    <footer>
+                        11-10-2023
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Social Media Manager Accademia Domani</h2>
+                        <h4>Certificato</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-6">
+                            <img src="/img/certificati/IT/Certificato SMM - Accademia Domani.png">
+                    </div>
+                    <footer>
+                        10-05-2023
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Graphic Designer Accademia Domani</h2>
+                        <h4>Certificato</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-5">
+                            <img src="/img/certificati/IT/Certificato Graphic Designer Accademia Domani.png">
+                    </div>
+                    <footer>
+                        01-09-2022
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Microsoft Word Accademia Domani</h2>
+                        <h4>Certificato</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-4">
+                            <img src="/img/certificati/IT/Certificato Word Accademia Domani.png">
+                    </div>
+                    <footer>
+                        31-08-2022
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Adobe Photoshop Accademia Domani</h2>
+                        <h4>Certificato</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-3">
+                            <img src="/img/certificati/IT/Certificato Photoshop Accademia Domani.png">
+                    </div>
+                    <footer>
+                        26-08-2022
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Adobe inDesign Accademia Domani</h2>
+                        <h4>Certificato</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-2">
+                            <img src="/img/certificati/IT/Certificato inDesign Accademia Domani.png">
+                    </div>
+                    <footer>
+                        14-08-2022
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h2>Graphic Design Specialist Istituto Volta</h2>
+                        <h4>Diploma</h4>
+                    </header>
+                    <hr>
+                    <div class="event"><label for="modal-1">
+                            <img
+                                src="/img/certificati/IT/Diploma Attestato - Istituto Volta - Graphic Design Specialist.png">
+                    </div>
+                    <footer>
+                        30-07-2021
+                    </footer>
+                </article>
+            </section>
+
+
+            <!-- MODAL -->
+            <input class="modal-state" id="modal-9" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-9"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-9"></label>
+                    <img src="/img/certificati/IT/Certificato Web Designer Accademia Domani.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-8" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-8"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-8"></label>
+                    <img src="/img/certificati/IT/Attestato partecipazione - Coding Week - Boolean.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-7" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-7"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-7"></label>
+                    <img src="/img/certificati/IT/Certificato Correzione Digitale (inDesign) Accademia Domani.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-6" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-6"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-6"></label>
+                    <img src="/img/certificati/IT/Certificato SMM - Accademia Domani.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-5" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-5"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-5"></label>
+                    <img src="/img/certificati/IT/Certificato Graphic Designer Accademia Domani.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-4" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-4"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-4"></label>
+                    <img src="/img/certificati/IT/Certificato Word Accademia Domani.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-3" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-3"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-3"></label>
+                    <img src="/img/certificati/IT/Certificato Photoshop Accademia Domani.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-2" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-2"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-2"></label>
+                    <img src="/img/certificati/IT/Certificato inDesign Accademia Domani.png">
+                </div>
+            </div>
+
+            <input class="modal-state" id="modal-1" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-1"></label>
+                <div class="modal__inner modstudy">
+                    <label id="closestudy" class="modal__close" for="modal-1"></label>
+                    <img src="/img/certificati/IT/Diploma Attestato - Istituto Volta - Graphic Design Specialist.png">
+                </div>
+            </div>
+
+
+
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section class="footer_normal">
+            <div class="wrapper">
+                <div class="author">© 2023 Davide Calabrò</div>
+                <section class="social">
+                    <a href="https://www.instagram.com/_davidedesign/" target="_blank" alt="instagram">
+                        <div class="instagram"></div>
+                    </a>
+                    <a href="https://twitter.com/Davide_Design" target="_blank" alt="xtwitter">
+                        <div class="xtwitter"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davide-calabró" target="_blank" alt="linkedin">
+                        <div class="linkedin"></div>
+                    </a>
+                    <a href="mailto:davidedesign.business@gmail.com" alt="email">
+                        <div class="mail"></div>
+                    </a>
+                </section>
+            </div>
+        </section>
+    </footer>
+    </div>
+</body>
+
+
+
+</html>

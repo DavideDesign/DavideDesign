@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="/style/general-style.css">
+    <link rel="stylesheet" href="/style/style-home_portfolio.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/25c9fb1e35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords"
+        content="Graphic Design, Emotes, Illustrations, Grafica, Art, Brand Design, Brand Identity, Web Design">
+    <meta name="author" content="Davide Calabrò">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HEAD -->
+    <title>Davide Calabrò ~ Portfolio</title>
+    <link rel="icon" href="/img/logo/Logo-DC_white.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header_normal">
+            <!-- LOGO -->
+            <div class="logo_home"></div>
+
+            <!-- MENU NAV -->
+            <div class="encaser_right">
+                <div class="nav">
+                    <li class="dropdown-item active"><a href="portfolio.html">Porfolio</a></li>
+                    <li class="dropdown-item"><a href="chi_sono.html">Chi Sono</a></li>
+                    <li class="dropdown-item"><a href="servizi.html">Servizi</a></li>
+
+                    <!-- LANGUAGE -->
+                    <div class="nav-wrapper">
+                        <div class="sl-nav">
+                            <ul>
+                                <li>Lingua <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    <div class="triangle"></div>
+                                    <ul>
+                                        <li><i class="sl-flag flag-it"></i> <a href="portfolio.html">
+                                                <span class="active">IT</span></a>
+                                        </li>
+                                        <li><i class="sl-flag flag-en"></i>
+                                            <span>EN</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr id="hr-nav">
+                <!-- SOCIAL -->
+                <section class="social">
+                    <a href="https://www.instagram.com/_davidedesign/" target="_blank" alt="instagram">
+                        <div class="instagram"></div>
+                    </a>
+                    <a href="https://twitter.com/Davide_Design" target="_blank" alt="xtwitter">
+                        <div class="xtwitter"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davide-calabró" target="_blank" alt="linkedin">
+                        <div class="linkedin"></div>
+                    </a>
+                    <a href="mailto:davidedesign.business@gmail.com" alt="email">
+                        <div class="mail"></div>
+                    </a>
+                </section>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU HEADER -->
+        <div class="header_mobile">
+            <div class="logo_home_mobile"></div>
+            <!-- SOCIAL -->
+            <div class="contact">
+                <p>Contatti</p>
+                <section class="social">
+                    <a href="https://www.instagram.com/_davidedesign/" target="_blank" alt="instagram">
+                        <div class="instagram"></div>
+                    </a>
+                    <a href="https://twitter.com/Davide_Design" target="_blank" alt="xtwitter">
+                        <div class="xtwitter"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davide-calabró" target="_blank" alt="linkedin">
+                        <div class="linkedin"></div>
+                    </a>
+                    <a href="mailto:davidedesign.business@gmail.com" alt="email">
+                        <div class="mail"></div>
+                    </a>
+                </section>
+            </div>
+            <!-- MENU -->
+            <section class="encaser_right_mobile">
+                <div id="navicon">
+                    <p>menu</p>
+                    <input type="checkbox" onclick="attivaDisattivaPointerEvents()" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <script>
+                        function attivaDisattivaPointerEvents() {
+                            var elementoTrasparente = document.getElementById('elementoTrasparente');
+                            var pointerEventsValue = elementoTrasparente.style.pointerEvents;
+                            elementoTrasparente.style.pointerEvents = pointerEventsValue === 'none' ? 'auto' : 'none';
+                        }
+                    </script>
+
+                    <div class="drawer">
+                        <img src="/img/logo/+Logo-DC_color.svg">
+                        <ul class="sottostante" id="elementoSottostante">
+                            <li><a class="active_mobile" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li><a href="chi_sono.html">Chi Sono</a>
+                            </li>
+                            <li><a href="servizi.html">Servizi</a>
+                            </li>
+                            <!-- LANGUAGE -->
+                            <div class="lingua_mobile">
+                                <li><a href="portfolio.html"><i class="sl-flag flag-it"></i>
+                                    </a>
+                                </li>
+                                <li><a href="portfolio.html"><i class="sl-flag flag-en"></i>
+                                    </a>
+                                </li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!-- BODY -->
+    <main class="col-12 trasparente" id="elementoTrasparente">
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+
+        <section class="container-top">
+            <!-- TITLE -->
+            <section>
+                <div id="slider-title">
+                    <div class="span-title" id="sliderValue-title"></div>
+                </div>
+
+                <script>
+                    var sliderCounter = 0;
+                    var sliderContent = [
+                        "DAVIDE CALABRO'",
+                        "GRAPHIC DESIGNER"
+                    ];
+
+                    var slider = document.querySelector("#slider-title");
+                    var sliderValue = document.querySelector("#sliderValue-title");
+
+                    function slide() {
+                        if (sliderCounter >= sliderContent.length) {
+                            sliderCounter = 0;
+                        }
+
+                        sliderValue.innerHTML = "";
+
+                        sliderValue.classList.remove("holder-animation-title");
+                        void sliderValue.offsetWidth;
+                        sliderValue.classList.add("holder-animation-title");
+
+                        for (i = 0; i < sliderContent[sliderCounter].length; i++) {
+                            let letterDiv = document.createElement("div");
+                            letterDiv.innerHTML = sliderContent[sliderCounter][i];
+
+                            if (letterDiv.innerHTML == " ") {
+                                letterDiv.innerHTML = "&nbsp;";
+                            }
+                            letterDiv.classList.add("start");
+                            letterDiv.classList.add("animation");
+                            letterDiv.style.animationDelay = i / 10 + "s";
+                            sliderValue.appendChild(letterDiv);
+                        }
+
+                        sliderCounter++;
+                    }
+
+                    slide();
+                    setInterval(slide, 10000);
+                </script>
+            </section>
+            <section id="box_home_top">
+                <p class="p1-home">
+                    Sono un <strong>Grafico Freelance</strong> appassionato di <strong>grafica e fotoritocco</strong>
+                    con esperienza in progettazione di <strong>loghi, grafica per social media, articoli per la stampa e
+                        altro.</strong>
+                </p>
+                <p class="p2-home">
+                    Di recente studiando web design ho progettato questo sito web partendo da zero,
+                    attenzione ai dettagli, creatività e capacità di adattare il mio lavoro ai <span class="easter_egg"
+                        onClick="document.getElementById('pol').style.display='block'"> c</span>lienti sono
+                    la mia filosofia..
+                    <span class="read-more underline">
+                        <a href="chi_sono.html"><strong>leggi di più.</strong></a>
+                    </span><br>
+                </p>
+            </section>
+        </section>
+
+        <!-- rain -->
+        <div id="pol">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/58-atNakMWw" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+
+        <!-- WORK-WORK-WORK -->
+        <section class="work_port_main">
+            <div class="indicator_title">
+                <div class="cta">
+                    <h1 class="title">Portfolio</h1>
+                    <p class="instructions"></p>
+                    <p class="emoji">👇</p>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <!-- image--vertical -->
+                <!-- image--horizontal -->
+                <!-- image--big -->
+
+                <div class="image"><label for="modal-ar">
+                        <img src="/img/portfolio/thumbnail/thumbnail_AR.svg" /></label></div>
+
+                <div class="image"><label for="modal-ef"><img
+                            src="/img/portfolio/thumbnail/thumbnail_emote-Falco.svg" /></label></div>
+
+                <div class="image image--horizontal"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_emotwitchvarie.svg" /></label></div>
+
+                <div class="image image--horizontal"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_MM.svg" /></label></div>
+
+                <div class="image image--vertical"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_flayer_Antonio.svg" /></label></div>
+
+                <div class="image"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_illustration.svg" /></label></div>
+
+                <div class="image"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_photogiac.svg" /></label></div>
+
+                <div class="image image--vertical"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_postig_loremagazine.svg" /></label></div>
+
+                <div class="image"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_SIRIUS-BAND.svg" /></label></div>
+
+                <div class="image image--horizontal"><label for="modal-1"><img
+                            src="/img/portfolio/thumbnail/thumbnail_striscione_antonio.svg" /></label></div>
+
+                <div class="image"><label for="modal-1"><img src="/img/portfolio/thumbnail/thumbnail_DC.svg" /></label>
+                </div>
+
+
+
+            </div>
+            <!-- MODAL PORT -->
+
+            <!-- AR -->
+            <input class="modal-state" id="modal-ar" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-ar"></label>
+                <div class="modal__inner">
+                    <label class="modal__close" for="modal-ar"></label>
+                    <div class="pc-tab">
+                        <input checked="checked" id="tab1" type="radio" name="pct" />
+                        <input id="tab2" type="radio" name="pct" />
+                        <input id="tab3" type="radio" name="pct" />
+                        <nav>
+                            <ul>
+                                <li class="tab1">
+                                    <label for="tab1">First Tab</label>
+                                </li>
+                                <li class="tab2">
+                                    <label for="tab2">Second Tab</label>
+                                </li>
+                                <li class="tab3">
+                                    <label for="tab3">Third Tab</label>
+                                </li>
+                            </ul>
+                        </nav>
+                        <section>
+                            <div class="tab1">
+                                <h2>First</h2>
+                                <p>A</p>
+                            </div>
+                            <div class="tab2">
+                                <h2>Second</h2>
+                                <p>B</p>
+                            </div>
+                            <div class="tab3">
+                                <h2>Third</h2>
+                                <p>C</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- EMOTE FALCO -->
+            <input class="modal-state" id="modal-ef" type="checkbox" />
+            <div class="modal">
+                <label class="modal__bg" for="modal-ef"></label>
+                <div class="modal__inner">
+                    <label class="modal__close" for="modal-ef"></label>
+                    <div class="pc-tab">
+                        <input checked="checked" id="tab4" type="radio" name="pct" />
+                        <input id="tab5" type="radio" name="pct" />
+                        <input id="tab3" type="radio" name="pct" />
+                        <nav>
+                            <ul>
+                                <li class="tab4">
+                                    <label for="tab4">prova</label>
+                                </li>
+                                <li class="tab5">
+                                    <label for="tab5">test</label>
+                                </li>
+                                <li class="tab3">
+                                    <label for="tab3">try</label>
+                                </li>
+                            </ul>
+                        </nav>
+                        <section>
+                            <div class="tab4">
+                                <h2>EMOTE TWITCH X FALCODESIGN_</h2>
+                                <img src="/img/portfolio/emote/emote_falco.svg" />
+                            </div>
+                            <div class="tab5">
+                                <h2>Second</h2>
+                                <p>B</p>
+                            </div>
+                            <div class="tab3">
+                                <h2>Third</h2>
+                                <p>C</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section class="footer_normal">
+            <div class="wrapper">
+                <p class="author">©2023 Davide Calabrò</p>
+                <section class="social">
+                    <a href="https://www.instagram.com/_davidedesign/" target="_blank" alt="instagram">
+                        <div class="instagram"></div>
+                    </a>
+                    <a href="https://twitter.com/Davide_Design" target="_blank" alt="xtwitter">
+                        <div class="xtwitter"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/davide-calabró" target="_blank" alt="linkedin">
+                        <div class="linkedin"></div>
+                    </a>
+                    <a href="mailto:davidedesign.business@gmail.com" alt="email">
+                        <div class="mail"></div>
+                    </a>
+                </section>
+            </div>
+        </section>
+    </footer>
+
+
+</body>
+<script>function toggleMenu() {
+        const navbar = document.querySelector('.navbar');
+        const burger = document.querySelector('.burger');
+
+        burger.addEventListener('click', (e) => {
+            navbar.classList.toggle('show-nav');
+        });
+        // bonus
+        const navbarLinks = document.querySelectorAll('.navbar a');
+        navbarLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                navbar.classList.toggle('show-nav');
+            });
+        })
+
+    }
+    toggleMenu();
+
+
+
+</script>
+
+</html>
